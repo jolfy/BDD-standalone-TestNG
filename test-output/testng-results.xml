@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Custom suite" duration-ms="734" started-at="2017-06-18T21:17:53Z" finished-at="2017-06-18T21:17:53Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCukesByFeatureAndCompositionTest1.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1@4883b407]" name="feature" class="com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1"/>
+        <method signature="RunCukesByFeatureAndCompositionTest2.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2@4f7d0008]" name="feature" class="com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber Date Calculator Test 1" duration-ms="636" started-at="2017-06-18T21:17:53Z" finished-at="2017-06-18T21:17:53Z">
+      <class name="com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1@4883b407]" name="setUpClass" is-config="true" duration-ms="350" started-at="2017-06-18T14:17:53Z" finished-at="2017-06-18T14:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1@4883b407]" name="feature" duration-ms="160" started-at="2017-06-18T14:17:53Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-06-18T14:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Feature1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1@4883b407]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2017-06-18T14:17:53Z" finished-at="2017-06-18T14:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest1 -->
+    </test> <!-- Cucumber Date Calculator Test 1 -->
+    <test name="Cucumber Date Calculator Test 2" duration-ms="67" started-at="2017-06-18T21:17:53Z" finished-at="2017-06-18T21:17:53Z">
+      <class name="com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2@4f7d0008]" name="setUpClass" is-config="true" duration-ms="30" started-at="2017-06-18T14:17:53Z" finished-at="2017-06-18T14:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2@4f7d0008]" name="feature" duration-ms="18" started-at="2017-06-18T14:17:53Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-06-18T14:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Feature2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2@4f7d0008]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2017-06-18T14:17:53Z" finished-at="2017-06-18T14:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.testng.examples.RunCukesByFeatureAndCompositionTest2 -->
+    </test> <!-- Cucumber Date Calculator Test 2 -->
+  </suite> <!-- Custom suite -->
+</testng-results>
