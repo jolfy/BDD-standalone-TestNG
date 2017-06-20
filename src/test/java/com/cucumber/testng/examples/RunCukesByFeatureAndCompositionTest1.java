@@ -3,6 +3,7 @@ package com.cucumber.testng.examples;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.TestNGCucumberRunner;
 import cucumber.api.testng.CucumberFeatureWrapper;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -25,6 +26,7 @@ public class RunCukesByFeatureAndCompositionTest1 {
     @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
     public void feature(CucumberFeatureWrapper cucumberFeature) {
         testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
+        System.out.println("Tests running for ..." + RunCukesByFeatureAndCompositionTest1.class);
     }
 
     @DataProvider
